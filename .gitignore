@@ -1,0 +1,17 @@
+.queue/
+*.log
+build/
+.gradle/
+node_modules/
+.idea/
+.vscode/
+.env
+!.env.example
+
+# Claude Code local config (not published)
+CLAUDE.md
+.claude/
+
+# Local automation (kept on this PC only)
+scripts/
+.github/
