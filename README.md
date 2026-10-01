@@ -26,7 +26,7 @@ JDK 21, Node 22 기준이며 외부 DB/서비스가 필요 없습니다 (H2, 인
 ## 노트 인덱스
 
 <!-- INDEX:START -->
-Total notes: 6
+Total notes: 7
 
 ### java (2)
 | Date | Note | Tags | Example |
@@ -44,9 +44,10 @@ Total notes: 6
 |---|---|---|---|
 | 2026-09-30 | [Express 라우트를 앱 팩토리로 분리해 테스트](studyNote/node-express/2026-09-30-app-factory-test.md) | `#express` `#test` | [run](example/node-express/health-route) |
 
-### spring (2)
+### spring (3)
 | Date | Note | Tags | Example |
 |---|---|---|---|
 | 2026-10-01 | [예외를 던져도 정리 작업은 커밋하고 싶을 때 noRollbackFor를 쓰는 법](studyNote/spring/2026-10-01-transactional-no-rollback-for.md) | `#transactional` `#rollback` `#noRollbackFor` `#spring-tx` | [run](example/spring-boot/transactional-no-rollback) |
+| 2026-10-01 | [트랜잭션이 커밋된 뒤에만 외부 알림을 보내는 법](studyNote/spring/2026-10-01-after-commit-notification.md) | `#transaction` `#TransactionSynchronization` `#afterCommit` `#side-effect` | [run](example/spring-boot/after-commit-notification) |
 | 2026-09-30 | [@Valid로 요청 본문 검증](studyNote/spring/2026-09-30-valid-request-body.md) | `#validation` `#rest` | [run](example/spring-boot/rest-validation) |
 <!-- INDEX:END -->
