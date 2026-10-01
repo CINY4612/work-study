@@ -26,11 +26,12 @@ JDK 21, Node 22 기준이며 외부 DB/서비스가 필요 없습니다 (H2, 인
 ## 노트 인덱스
 
 <!-- INDEX:START -->
-Total notes: 4
+Total notes: 6
 
-### java (1)
+### java (2)
 | Date | Note | Tags | Example |
 |---|---|---|---|
+| 2026-10-01 | [헬스체크에서 직전 상태를 기억해 연속 실패 판정과 상태 변화를 잡는 법](studyNote/java/2026-10-01-health-check-threshold.md) | `#health-check` `#state` `#threshold` `#monitoring` | [run](example/java/health-check-threshold) |
 | 2026-09-30 | [groupingBy로 카테고리별 집계](studyNote/java/2026-09-30-stream-grouping.md) | `#stream` `#collector` | [run](example/java/stream-grouping) |
 
 ### javascript (1)
@@ -43,8 +44,9 @@ Total notes: 4
 |---|---|---|---|
 | 2026-09-30 | [Express 라우트를 앱 팩토리로 분리해 테스트](studyNote/node-express/2026-09-30-app-factory-test.md) | `#express` `#test` | [run](example/node-express/health-route) |
 
-### spring (1)
+### spring (2)
 | Date | Note | Tags | Example |
 |---|---|---|---|
+| 2026-10-01 | [예외를 던져도 정리 작업은 커밋하고 싶을 때 noRollbackFor를 쓰는 법](studyNote/spring/2026-10-01-transactional-no-rollback-for.md) | `#transactional` `#rollback` `#noRollbackFor` `#spring-tx` | [run](example/spring-boot/transactional-no-rollback) |
 | 2026-09-30 | [@Valid로 요청 본문 검증](studyNote/spring/2026-09-30-valid-request-body.md) | `#validation` `#rest` | [run](example/spring-boot/rest-validation) |
 <!-- INDEX:END -->
