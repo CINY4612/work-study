@@ -26,11 +26,12 @@ JDK 21, Node 22 기준이며 외부 DB/서비스가 필요 없습니다 (H2, 인
 ## 노트 인덱스
 
 <!-- INDEX:START -->
-Total notes: 7
+Total notes: 8
 
-### java (2)
+### java (3)
 | Date | Note | Tags | Example |
 |---|---|---|---|
+| 2026-10-02 | [TTL 대신 만료 시각과 주입한 Clock으로 heartbeat 생존 판정을 하는 법](studyNote/java/2026-10-02-heartbeat-lease-expiry.md) | `#heartbeat` `#lease` `#ttl` `#clock` `#concurrency` | [run](example/java/heartbeat-lease-expiry) |
 | 2026-10-01 | [헬스체크에서 직전 상태를 기억해 연속 실패 판정과 상태 변화를 잡는 법](studyNote/java/2026-10-01-health-check-threshold.md) | `#health-check` `#state` `#threshold` `#monitoring` | [run](example/java/health-check-threshold) |
 | 2026-09-30 | [groupingBy로 카테고리별 집계](studyNote/java/2026-09-30-stream-grouping.md) | `#stream` `#collector` | [run](example/java/stream-grouping) |
 
