@@ -26,12 +26,13 @@ JDK 21, Node 22 기준이며 외부 DB/서비스가 필요 없습니다 (H2, 인
 ## 노트 인덱스
 
 <!-- INDEX:START -->
-Total notes: 8
+Total notes: 10
 
-### java (3)
+### java (4)
 | Date | Note | Tags | Example |
 |---|---|---|---|
 | 2026-10-02 | [TTL 대신 만료 시각과 주입한 Clock으로 heartbeat 생존 판정을 하는 법](studyNote/java/2026-10-02-heartbeat-lease-expiry.md) | `#heartbeat` `#lease` `#ttl` `#clock` `#concurrency` | [run](example/java/heartbeat-lease-expiry) |
+| 2026-10-02 | [락 획득 순서를 고정해서 데드락을 피하는 법](studyNote/java/2026-10-02-lock-ordering-deadlock.md) | `#deadlock` `#ReentrantLock` `#concurrency` `#lock-ordering` | [run](example/java/lock-ordering-deadlock) |
 | 2026-10-01 | [헬스체크에서 직전 상태를 기억해 연속 실패 판정과 상태 변화를 잡는 법](studyNote/java/2026-10-01-health-check-threshold.md) | `#health-check` `#state` `#threshold` `#monitoring` | [run](example/java/health-check-threshold) |
 | 2026-09-30 | [groupingBy로 카테고리별 집계](studyNote/java/2026-09-30-stream-grouping.md) | `#stream` `#collector` | [run](example/java/stream-grouping) |
 
@@ -40,9 +41,10 @@ Total notes: 8
 |---|---|---|---|
 | 2026-09-30 | [수집은 무료로, 비싼 호출은 배치 1회로 분리하는 법](studyNote/javascript/2026-09-30-batch-candidates.md) | `#automation` `#jsonl` `#batch` | [run](example/javascript/batch-candidates) |
 
-### node-express (1)
+### node-express (2)
 | Date | Note | Tags | Example |
 |---|---|---|---|
+| 2026-10-02 | [서버 세션과 JWT는 강제 로그아웃 가능 여부가 왜 다른지 이해하는 법](studyNote/node-express/2026-10-02-session-vs-jwt-force-logout.md) | `#jwt` `#session` `#auth` `#revocation` | [run](example/node-express/session-vs-jwt-force-logout) |
 | 2026-09-30 | [Express 라우트를 앱 팩토리로 분리해 테스트](studyNote/node-express/2026-09-30-app-factory-test.md) | `#express` `#test` | [run](example/node-express/health-route) |
 
 ### spring (3)
