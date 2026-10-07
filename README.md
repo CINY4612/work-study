@@ -26,7 +26,7 @@ JDK 21, Node 22 기준이며 외부 DB/서비스가 필요 없습니다 (H2, 인
 ## 노트 인덱스
 
 <!-- INDEX:START -->
-Total notes: 13
+Total notes: 14
 
 ### java (5)
 | Date | Note | Tags | Example |
@@ -42,9 +42,10 @@ Total notes: 13
 |---|---|---|---|
 | 2026-09-30 | [수집은 무료로, 비싼 호출은 배치 1회로 분리하는 법](studyNote/javascript/2026-09-30-batch-candidates.md) | `#automation` `#jsonl` `#batch` | [run](example/javascript/batch-candidates) |
 
-### node-express (3)
+### node-express (4)
 | Date | Note | Tags | Example |
 |---|---|---|---|
+| 2026-10-07 | [의존 서비스 장애는 503으로, 자리가 없다는 업무 결과는 200으로 구분해 응답하는 법](studyNote/node-express/2026-10-07-dependency-failure-vs-empty-result.md) | `#http-status` `#retry` `#error-handling` `#express` | [run](example/node-express/dependency-failure-vs-empty-result) |
 | 2026-10-07 | [서버 세션은 서명된 sid 쿠키 하나로 req.session을 복원한다는 걸 이해하는 법](studyNote/node-express/2026-10-07-signed-session-cookie.md) | `#session` `#cookie` `#hmac` `#express-session` | [run](example/node-express/signed-session-cookie) |
 | 2026-10-02 | [서버 세션과 JWT는 강제 로그아웃 가능 여부가 왜 다른지 이해하는 법](studyNote/node-express/2026-10-02-session-vs-jwt-force-logout.md) | `#jwt` `#session` `#auth` `#revocation` | [run](example/node-express/session-vs-jwt-force-logout) |
 | 2026-09-30 | [Express 라우트를 앱 팩토리로 분리해 테스트](studyNote/node-express/2026-09-30-app-factory-test.md) | `#express` `#test` | [run](example/node-express/health-route) |
