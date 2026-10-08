@@ -23,42 +23,6 @@ JDK 21, Node 22 기준이며 외부 DB/서비스가 필요 없습니다 (H2, 인
 
 `study/<category>/<yyyyMMdd-HHmm>` - 카테고리별 학습 이력. 예: `git tag -l "study/spring/*"`
 
-## 노트 인덱스
+## 노트 목차
 
-<!-- INDEX:START -->
-Total notes: 14
-
-### java (5)
-| Date | Note | Tags | Example |
-|---|---|---|---|
-| 2026-10-06 | [요청 목적지를 규칙 레지스트리로 관리하고, 주소가 없으면 기본값 대신 오류로 처리하는 법](studyNote/java/2026-10-06-routing-registry-fail-fast.md) | `#routing` `#registry` `#enum` `#fail-fast` | [run](example/java/routing-registry-fail-fast) |
-| 2026-10-02 | [락 획득 순서를 고정해서 데드락을 피하는 법](studyNote/java/2026-10-02-lock-ordering-deadlock.md) | `#deadlock` `#ReentrantLock` `#concurrency` `#lock-ordering` | [run](example/java/lock-ordering-deadlock) |
-| 2026-10-02 | [TTL 대신 만료 시각과 주입한 Clock으로 heartbeat 생존 판정을 하는 법](studyNote/java/2026-10-02-heartbeat-lease-expiry.md) | `#heartbeat` `#lease` `#ttl` `#clock` `#concurrency` | [run](example/java/heartbeat-lease-expiry) |
-| 2026-10-01 | [헬스체크에서 직전 상태를 기억해 연속 실패 판정과 상태 변화를 잡는 법](studyNote/java/2026-10-01-health-check-threshold.md) | `#health-check` `#state` `#threshold` `#monitoring` | [run](example/java/health-check-threshold) |
-| 2026-09-30 | [groupingBy로 카테고리별 집계](studyNote/java/2026-09-30-stream-grouping.md) | `#stream` `#collector` | [run](example/java/stream-grouping) |
-
-### javascript (1)
-| Date | Note | Tags | Example |
-|---|---|---|---|
-| 2026-09-30 | [수집은 무료로, 비싼 호출은 배치 1회로 분리하는 법](studyNote/javascript/2026-09-30-batch-candidates.md) | `#automation` `#jsonl` `#batch` | [run](example/javascript/batch-candidates) |
-
-### node-express (4)
-| Date | Note | Tags | Example |
-|---|---|---|---|
-| 2026-10-07 | [의존 서비스 장애는 503으로, 자리가 없다는 업무 결과는 200으로 구분해 응답하는 법](studyNote/node-express/2026-10-07-dependency-failure-vs-empty-result.md) | `#http-status` `#retry` `#error-handling` `#express` | [run](example/node-express/dependency-failure-vs-empty-result) |
-| 2026-10-07 | [서버 세션은 서명된 sid 쿠키 하나로 req.session을 복원한다는 걸 이해하는 법](studyNote/node-express/2026-10-07-signed-session-cookie.md) | `#session` `#cookie` `#hmac` `#express-session` | [run](example/node-express/signed-session-cookie) |
-| 2026-10-02 | [서버 세션과 JWT는 강제 로그아웃 가능 여부가 왜 다른지 이해하는 법](studyNote/node-express/2026-10-02-session-vs-jwt-force-logout.md) | `#jwt` `#session` `#auth` `#revocation` | [run](example/node-express/session-vs-jwt-force-logout) |
-| 2026-09-30 | [Express 라우트를 앱 팩토리로 분리해 테스트](studyNote/node-express/2026-09-30-app-factory-test.md) | `#express` `#test` | [run](example/node-express/health-route) |
-
-### spring (3)
-| Date | Note | Tags | Example |
-|---|---|---|---|
-| 2026-10-01 | [예외를 던져도 정리 작업은 커밋하고 싶을 때 noRollbackFor를 쓰는 법](studyNote/spring/2026-10-01-transactional-no-rollback-for.md) | `#transactional` `#rollback` `#noRollbackFor` `#spring-tx` | [run](example/spring-boot/transactional-no-rollback) |
-| 2026-10-01 | [트랜잭션이 커밋된 뒤에만 외부 알림을 보내는 법](studyNote/spring/2026-10-01-after-commit-notification.md) | `#transaction` `#TransactionSynchronization` `#afterCommit` `#side-effect` | [run](example/spring-boot/after-commit-notification) |
-| 2026-09-30 | [@Valid로 요청 본문 검증](studyNote/spring/2026-09-30-valid-request-body.md) | `#validation` `#rest` | [run](example/spring-boot/rest-validation) |
-
-### typescript (1)
-| Date | Note | Tags | Example |
-|---|---|---|---|
-| 2026-10-07 | [비동기로 바뀌는 상태 대신 현재 처리 중인 ID로 중복 호출을 막는 법](studyNote/typescript/2026-10-07-idempotent-join-guard.md) | `#idempotency` `#race-condition` `#guard` `#event` | [run](example/node-express/idempotent-join-guard) |
-<!-- INDEX:END -->
+전체 노트 목록은 **[Wiki](https://github.com/CINY4612/work-study/wiki)** 에서 분류별로 볼 수 있습니다.
