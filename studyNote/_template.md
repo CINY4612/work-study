@@ -6,7 +6,7 @@ example: example/<lang>/<project>
 status: auto
 -->
 
-# 한 문장 제목 (~하는 법 / ~의 차이)
+# 짧은 제목 (명사구 권장, 40자 이내)
 
 > [!NOTE]
 > 핵심 요약 1줄: 무엇을, 왜.
@@ -28,4 +28,4 @@ status: auto
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `java` | `#tag1` `#tag2` | YYYY-MM-DD | [▶ 실행해보기](../../example/<lang>/<project>) |
+| `java` | `#tag1` `#tag2` | YYYY-MM-DD | [예제 보기](../../example/<lang>/<project>) |
