@@ -24,4 +24,4 @@ src/test/java/dev/workhard/AssignmentServiceTest.java
 
 ## 📝 관련 노트
 
-- [예외를 던져도 정리 작업은 커밋하고 싶을 때 noRollbackFor를 쓰는 법](../../../studyNote/spring/2026-10-01-transactional-no-rollback-for.md)
+- [예외를 던져도 커밋되게 하는 noRollbackFor](../../../studyNote/spring/2026-10-01-transactional-no-rollback-for.md)

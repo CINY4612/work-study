@@ -57,4 +57,4 @@ public void place(String item, boolean fail) {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `spring` | `#transaction` `#TransactionSynchronization` `#afterCommit` `#side-effect` | 2026-10-01 | [▶ 실행해보기](../../example/spring-boot/after-commit-notification) |
+| `spring` | `#transaction` `#TransactionSynchronization` `#afterCommit` `#side-effect` | 2026-10-01 | [예제 보기](../../example/spring-boot/after-commit-notification) |

@@ -16,4 +16,4 @@ status: auto
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `spring` | `#validation` `#rest` | 2026-09-30 | [▶ 실행해보기](../../example/spring-boot/rest-validation) |
+| `spring` | `#validation` `#rest` | 2026-09-30 | [예제 보기](../../example/spring-boot/rest-validation) |

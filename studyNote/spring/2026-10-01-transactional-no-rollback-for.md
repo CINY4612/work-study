@@ -6,7 +6,7 @@ example: example/spring-boot/transactional-no-rollback
 status: auto
 -->
 
-# 예외를 던져도 정리 작업은 커밋하고 싶을 때 noRollbackFor를 쓰는 법
+# 예외를 던져도 커밋되게 하는 noRollbackFor
 
 > [!NOTE]
 > @Transactional 메서드가 RuntimeException을 던지면 그 안에서 한 DB 변경이 전부 롤백되고, noRollbackFor로 예외별로 이 동작을 끌 수 있다.
@@ -58,4 +58,4 @@ public class AssignmentService {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `spring` | `#transactional` `#rollback` `#noRollbackFor` `#spring-tx` | 2026-10-01 | [▶ 실행해보기](../../example/spring-boot/transactional-no-rollback) |
+| `spring` | `#transactional` `#rollback` `#noRollbackFor` `#spring-tx` | 2026-10-01 | [예제 보기](../../example/spring-boot/transactional-no-rollback) |
