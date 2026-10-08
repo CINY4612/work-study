@@ -46,4 +46,4 @@ this.doJoin(roomId);
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `typescript` | `#idempotency` `#race-condition` `#guard` `#event` | 2026-10-07 | [▶ 실행해보기](../../example/node-express/idempotent-join-guard) |
+| `typescript` | `#idempotency` `#race-condition` `#guard` `#event` | 2026-10-07 | [예제 보기](../../example/node-express/idempotent-join-guard) |

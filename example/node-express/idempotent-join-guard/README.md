@@ -2,16 +2,10 @@
 
 `Node 22 / TypeScript (tsx) / no external services`
 
-## ▶ 실행
-
-```bash
-npm install
-npm start
-```
-
 ## ✅ 테스트
 
 ```bash
+npm install
 npm test
 ```
 
