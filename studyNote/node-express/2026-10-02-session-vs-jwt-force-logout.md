@@ -6,7 +6,7 @@ example: example/node-express/session-vs-jwt-force-logout
 status: auto
 -->
 
-# 서버 세션과 JWT는 강제 로그아웃 가능 여부가 왜 다른지 이해하는 법
+# 서버 세션과 JWT의 강제 로그아웃 차이
 
 > [!NOTE]
 > 서버 세션은 저장소에서 행을 지우면 다음 요청부터 차단되지만, JWT는 서버가 상태를 안 갖기 때문에 만료 시각까지 유효하다.
@@ -59,4 +59,4 @@ forceLogout(userId: string) {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `node-express` | `#jwt` `#session` `#auth` `#revocation` | 2026-10-02 | [▶ 실행해보기](../../example/node-express/session-vs-jwt-force-logout) |
+| `node-express` | `#jwt` `#session` `#auth` `#revocation` | 2026-10-02 | [예제 보기](../../example/node-express/session-vs-jwt-force-logout) |

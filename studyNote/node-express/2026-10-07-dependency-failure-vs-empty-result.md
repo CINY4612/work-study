@@ -6,7 +6,7 @@ example: example/node-express/dependency-failure-vs-empty-result
 status: auto
 -->
 
-# 의존 서비스 장애는 503으로, 자리가 없다는 업무 결과는 200으로 구분해 응답하는 법
+# 의존 서비스 장애(503)와 업무상 빈 결과(200)의 응답 구분
 
 > [!NOTE]
 > Redis·DB 같은 의존 서비스 장애와 '배정할 자리 없음'이라는 정상 업무 결과를 같은 응답으로 보내면 호출자가 원인을 구분할 수 없다.
@@ -64,4 +64,4 @@ return res.json({ result: "ALLOCATED", slot });
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `node-express` | `#http-status` `#retry` `#error-handling` `#express` | 2026-10-07 | [▶ 실행해보기](../../example/node-express/dependency-failure-vs-empty-result) |
+| `node-express` | `#http-status` `#retry` `#error-handling` `#express` | 2026-10-07 | [예제 보기](../../example/node-express/dependency-failure-vs-empty-result) |

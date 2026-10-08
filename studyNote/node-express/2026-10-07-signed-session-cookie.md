@@ -6,7 +6,7 @@ example: example/node-express/signed-session-cookie
 status: auto
 -->
 
-# 서버 세션은 서명된 sid 쿠키 하나로 req.session을 복원한다는 걸 이해하는 법
+# 서명된 sid 쿠키로 req.session이 복원되는 원리
 
 > [!NOTE]
 > 로그인 세션 데이터는 서버 저장소에만 있고, 브라우저는 서명된 sid 쿠키만 들고 있다가 매 요청마다 그 키로 세션을 찾아온다.
@@ -46,4 +46,4 @@ export function sign(value: string, secret: string): string {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `node-express` | `#session` `#cookie` `#hmac` `#express-session` | 2026-10-07 | [▶ 실행해보기](../../example/node-express/signed-session-cookie) |
+| `node-express` | `#session` `#cookie` `#hmac` `#express-session` | 2026-10-07 | [예제 보기](../../example/node-express/signed-session-cookie) |
