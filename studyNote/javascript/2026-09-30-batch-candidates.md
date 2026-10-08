@@ -6,7 +6,7 @@ example: example/javascript/batch-candidates
 status: auto
 -->
 
-# 수집은 무료로, 비싼 호출은 배치 1회로 분리하는 법
+# 무료 수집과 비싼 호출을 분리하는 배치 처리
 
 > [!NOTE]
 > 이벤트마다 JSONL 큐에 메타데이터만 쌓고, 배치에서 후보를 골라 비싼 호출(LLM 등)은 한 번만 한다.
@@ -45,4 +45,4 @@ export async function runBatch(input, expensiveCall) {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `javascript` | `#automation` `#jsonl` `#batch` | 2026-09-30 | [▶ 실행해보기](../../example/javascript/batch-candidates) |
+| `javascript` | `#automation` `#jsonl` `#batch` | 2026-09-30 | [예제 보기](../../example/javascript/batch-candidates) |

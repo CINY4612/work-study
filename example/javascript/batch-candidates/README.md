@@ -1,10 +1,11 @@
 # batch-candidates
 
-`Node 22 / JavaScript (ESM) / no dependencies`
+`Node 22 / TypeScript (tsx) / no external services`
 
 ## ▶ 실행
 
 ```bash
+npm install
 npm start
 ```
 
@@ -24,4 +25,4 @@ test/pick.test.js
 
 ## 📝 관련 노트
 
-- [수집은 무료로, 비싼 호출은 배치 1회로 분리](../../../studyNote/javascript/2026-09-30-batch-candidates.md)
+- [무료 수집과 비싼 호출을 분리하는 배치 처리](../../../studyNote/javascript/2026-09-30-batch-candidates.md)
