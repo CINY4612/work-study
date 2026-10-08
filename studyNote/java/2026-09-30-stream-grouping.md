@@ -16,4 +16,4 @@ status: auto
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `java` | `#stream` `#collector` | 2026-09-30 | [▶ 실행해보기](../../example/java/stream-grouping) |
+| `java` | `#stream` `#collector` | 2026-09-30 | [예제 보기](../../example/java/stream-grouping) |

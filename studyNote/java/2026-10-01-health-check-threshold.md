@@ -6,7 +6,7 @@ example: example/java/health-check-threshold
 status: auto
 -->
 
-# 헬스체크에서 직전 상태를 기억해 연속 실패 판정과 상태 변화를 잡는 법
+# 헬스체크의 연속 실패 판정과 상태 변화 감지
 
 > [!NOTE]
 > 주기 헬스체크는 직전 상태(연속 실패 횟수, 이전 UP/DOWN)를 기억해야 N회 연속 실패 판정과 상태가 바뀐 순간 감지를 할 수 있다.
@@ -55,4 +55,4 @@ public Optional<Change> report(String target, boolean ok) {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `java` | `#health-check` `#state` `#threshold` `#monitoring` | 2026-10-01 | [▶ 실행해보기](../../example/java/health-check-threshold) |
+| `java` | `#health-check` `#state` `#threshold` `#monitoring` | 2026-10-01 | [예제 보기](../../example/java/health-check-threshold) |

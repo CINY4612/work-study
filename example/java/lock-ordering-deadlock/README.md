@@ -2,12 +2,6 @@
 
 `JDK 21 / Gradle Wrapper`
 
-## ▶ 실행
-
-```bash
-./gradlew run
-```
-
 ## ✅ 테스트
 
 ```bash

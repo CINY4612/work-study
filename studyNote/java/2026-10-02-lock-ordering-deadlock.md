@@ -52,4 +52,4 @@ try {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `java` | `#deadlock` `#ReentrantLock` `#concurrency` `#lock-ordering` | 2026-10-02 | [▶ 실행해보기](../../example/java/lock-ordering-deadlock) |
+| `java` | `#deadlock` `#ReentrantLock` `#concurrency` `#lock-ordering` | 2026-10-02 | [예제 보기](../../example/java/lock-ordering-deadlock) |

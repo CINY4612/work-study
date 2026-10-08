@@ -6,7 +6,7 @@ example: example/java/routing-registry-fail-fast
 status: auto
 -->
 
-# 요청 목적지를 규칙 레지스트리로 관리하고, 주소가 없으면 기본값 대신 오류로 처리하는 법
+# 규칙 레지스트리로 요청 목적지 관리 (주소가 없으면 fail-fast)
 
 > [!NOTE]
 > 규칙 키마다 목적지(enum)를 등록하고 목적지별 주소를 따로 조회하면, 새 목적지를 추가해도 라우팅 코드를 거의 안 고친다.
@@ -52,4 +52,4 @@ public String resolve(String key) {
 
 | 분류 | 태그 | 날짜 | 예제 |
 |:---:|:---|:---:|:---:|
-| `java` | `#routing` `#registry` `#enum` `#fail-fast` | 2026-10-06 | [▶ 실행해보기](../../example/java/routing-registry-fail-fast) |
+| `java` | `#routing` `#registry` `#enum` `#fail-fast` | 2026-10-06 | [예제 보기](../../example/java/routing-registry-fail-fast) |
