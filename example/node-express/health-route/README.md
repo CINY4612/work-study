@@ -1,18 +1,21 @@
 # health-route
 
-`Node 22 / TypeScript (tsx) / no external services`
+`Node 22 / TypeScript (tsx)` · 공통 프로젝트 `example/node-express` 의 의존성을 사용합니다.
 
 ## ▶ 실행
 
 ```bash
+cd example/node-express
 npm install
-npm start
+npx tsx health-route/src/server.ts
 ```
 
 ## ✅ 테스트
 
 ```bash
-npm test
+cd example/node-express
+npm install
+npm run test:one -- "health-route/test/*.test.ts"
 ```
 
 ## 📂 구조
