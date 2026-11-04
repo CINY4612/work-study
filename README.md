@@ -7,15 +7,16 @@
 
 ```
 studyNote/<category>/YYYY-MM-DD-slug.md   # 1~2줄 노트 (분류 정보는 숨은 meta 블록)
-example/<java|spring-boot|node-express|javascript|typescript>/<project>   # 실행 가능한 예제
+example/<언어>/                         # 언어별 공통 프로젝트 1개 (빌드 파일, 의존성)
+example/<언어>/<예제>/                  # 예제별 소스와 테스트만
 ```
 
 ## 예제 실행
 
-| 종류 | 실행 | 테스트 |
-|---|---|---|
-| java / spring-boot | `./gradlew run` / `./gradlew bootRun` | `./gradlew test` |
-| node-express | `npm install && npm start` | `npm test` |
+| 종류 | 위치 | 예제 하나 테스트 | 전체 테스트 |
+|---|---|---|---|
+| java / spring-boot | `example/java`, `example/spring-boot` | `./gradlew :<예제>:test` | `./gradlew test` |
+| node-express | `example/node-express` | `npm install` 후 `npm run test:one -- "<예제>/test/*.test.ts"` | `npm test` |
 
 JDK 21, Node 22 기준이며 외부 DB/서비스가 필요 없습니다 (H2, 인메모리).
 
