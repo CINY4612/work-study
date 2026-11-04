@@ -1,11 +1,12 @@
 # thread-pool-vs-connection-pool
 
-`JDK 21 / Spring Boot / Gradle Wrapper / H2 in-memory`
+`JDK 21 / Spring Boot / H2 in-memory` · 공통 프로젝트 `example/spring-boot` 의 의존성을 사용합니다.
 
 ## ✅ 테스트
 
 ```bash
-./gradlew test
+cd example/spring-boot
+./gradlew :thread-pool-vs-connection-pool:test
 ```
 
 ## 📂 구조
