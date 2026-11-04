@@ -1,18 +1,21 @@
 # batch-candidates
 
-`Node 22 / TypeScript (tsx) / no external services`
+`Node 22` · 공통 프로젝트 `example/javascript` 의 의존성을 사용합니다.
 
 ## ▶ 실행
 
 ```bash
+cd example/javascript
 npm install
-npm start
+node batch-candidates/src/main.js
 ```
 
 ## ✅ 테스트
 
 ```bash
-npm test
+cd example/javascript
+npm install
+npm run test:one -- "batch-candidates/test/*.test.js"
 ```
 
 ## 📂 구조
