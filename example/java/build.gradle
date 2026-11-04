@@ -1,0 +1,21 @@
+// Shared build for every Java example in this folder. Examples only contain src/ (and README.md).
+// Run one example's tests: ./gradlew :<example>:test    All: ./gradlew test
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'application'
+
+    repositories { mavenCentral() }
+
+    java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+
+    dependencies {
+        testImplementation platform('org.junit:junit-bom:5.11.4')
+        testImplementation 'org.junit.jupiter:junit-jupiter'
+        testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+        // @extra-deps (the routine adds dependencies an example needs above this line)
+    }
+
+    application { mainClass = 'dev.workhard.App' }
+
+    test { useJUnitPlatform() }
+}

@@ -1,11 +1,12 @@
 # filter-before-pick-least-loaded
 
-`JDK 21 / Gradle Wrapper`
+`JDK 21` · 공통 프로젝트 `example/java` 의 의존성을 사용합니다.
 
 ## ✅ 테스트
 
 ```bash
-./gradlew test
+cd example/java
+./gradlew :filter-before-pick-least-loaded:test
 ```
 
 ## 📂 구조
